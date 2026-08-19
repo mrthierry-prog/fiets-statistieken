@@ -11,14 +11,19 @@
   <p>Hier houd ik mijn trainingen en resultaten bij.</p>
 
   <h2>Mijn trainingen</h2>
+  <h3>Nieuwe training toevoegen</h3>
 
-  <h3>Afstand</h3>
-  <p>Nog geen afstand ingevuld.</p>
+  <form>
+    <label for="afstand">Afstand in kilometers:</label>
+    <input type="number" id="afstand" name="afstand">
 
-  <h3>Tijd</h3>
-  <p>Nog geen tijd ingevuld.</p>
+    <label for="tijd">Tijd in minuten:</label>
+    <input type="number" id="tijd" name="tijd">
 
-  <h3>Gemiddelde snelheid</h3>
-  <p>Nog geen snelheid ingevuld.</p>
+    <label for="snelheid">Gemiddelde snelheid in km/u:</label>
+    <input type="number" id="snelheid" name="snelheid" step="0.1">
+
+    <button type="submit">Training opslaan</button>
+  </form>
 </body>
 </html>
